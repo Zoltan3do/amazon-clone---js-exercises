@@ -1,0 +1,189 @@
+/* Your styles here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+#logo-container {
+    background-color: #222F3F;
+    height: 11vh;
+    padding: 10px 0 10px 30px;
+}
+
+#logo {
+    width: 11%;
+}
+
+#navbar {
+    background-color: #364759;
+    color: white;
+    padding: 5px 20px;
+    font-size: 1.2em;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* MAIN */
+#main {
+    padding: 30px;
+    margin: 0 auto;
+    margin: 0 0 15px 0;
+    background-color: #EAEDED;
+}
+
+#orange-container {
+    text-align: center;
+    color: white;
+    background-color: #F56600;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 30px
+}
+
+#holiday-container {
+    color: white;
+    background: url(../images/bg-image.png);
+    text-align: center;
+    padding: 75px 10px 50px 10px;
+    background-repeat: repeat;
+    margin: 30px 0;
+}
+
+#holiday-container p {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.card-smallImages {
+    padding: 20px;
+    margin: 0 auto;
+    margin: 15px 0;
+    background-color: white;
+}
+
+.subtit h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.subtit p {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: hsl(195deg 96.45% 28.93%);
+}
+
+.immagineD4 {
+    width: 23%;
+    height: 50vh;
+    margin: 15px 12px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#img1 {
+    background: url(../images/img_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img2 {
+    background: url(../images/img_2.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+#img3 {
+    background: url(../images/img_3.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+#img4 {
+    background: url(../images/img_4.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.container-immagini {
+    margin-top: 10px;
+    padding: 0
+}
+
+#vr {
+    background: url(../images/img_9.png);
+    background-size: cover;
+    background-position: center;
+    height: 60vh
+}
+
+
+#cuffie {
+    background: url(../images/img_10.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.card-bigImage {
+    margin: 40px 0 ;
+
+}
+
+.sub2 {
+    text-align: center;
+}
+
+/* ASIDE */
+.aside{
+    background-color: #35485A;
+    text-align: center;
+    padding: 20px;
+    margin-top:-20px;
+}
+
+a:visited, a:active, a {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #222F3E;
+    height: 20vh;
+    padding: 30px 30px 0px 30px;
+}
+
+.img-footer {
+    width: 15%;
+    margin: auto auto;
+    height: 10%;
+    vertical-align: center;
+    padding: 20px;
+}
+
+.img-footer img {
+    width: 100%;
+
+}
+
+
+
